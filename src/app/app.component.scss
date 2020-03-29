@@ -1,0 +1,50 @@
+td, th {
+  max-width: 40px;
+  width: 40px;
+  min-width: 40px;
+}
+
+tr {
+  max-height: 40px;
+  height: 40px;
+  min-height: 40px;
+}
+
+td {
+  border: 1px solid #dee2e6;
+  cursor: pointer;
+  user-select: none;
+  font-size: x-large;
+  color: var(--info);
+
+  span {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.system-default {
+  color: var(--dark);
+  cursor: default;
+}
+
+.caused-error {
+  border: 1px solid var(--danger);
+}
+
+tr:nth-of-type(3n+2) > td {
+  border-top: 1px solid #4b4b4e;
+}
+
+tr:nth-of-type(3n+4) > td {
+  border-bottom: 1px solid #4b4b4e;
+}
+
+td:nth-of-type(3n+1) {
+  border-left: 1px solid #4b4b4e;
+}
+
+td:nth-of-type(3n+3) {
+  border-right: 1px solid #4b4b4e;
+}
