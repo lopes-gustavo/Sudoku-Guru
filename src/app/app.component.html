@@ -7,7 +7,7 @@
 
     <div class="col-12">
       <div class="btn-group">
-        <button class="btn btn-warning" (click)="fillNext()">Find next</button>
+        <button class="btn btn-warning" (click)="fillNext()">Find one value</button>
         <button class="btn btn-danger" (click)="solveAll()">Solve all</button>
       </div>
     </div>
@@ -15,7 +15,7 @@
   </div>
 
   <div class="row mt-4">
-    <div class="col-auto justify-content-center">
+    <div class="col-12 d-flex justify-content-center">
       <table class="text-center">
         <tr>
           <th scope="col"></th>
@@ -36,11 +36,12 @@
         </tr>
       </table>
     </div>
+  </div>
 
-    <div class="flex-grow-1">
+  <div class="row mt-4">
+    <div class="col-12 d-flex justify-content-center">
       <textarea #log class="w-100" rows="20" disabled></textarea>
     </div>
-
   </div>
 
 </div>
