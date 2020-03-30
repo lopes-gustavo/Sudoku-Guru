@@ -93,7 +93,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "cname": "",
-            "base-href": "/sudoku-guru/"
+            "baseHref": "/sudoku-guru/"
           }
         }
       }
