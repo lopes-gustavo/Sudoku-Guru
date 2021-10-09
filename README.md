@@ -1,8 +1,8 @@
 # Sudoku Guru
 
-I love solving Sudoku. Sometimes, I like to solve extreme hard ones. 
-The problem is that often, I find myself in a place where I don't know the next cell to solve
-and the tips only give you the number, instead of explaining why it was like that.
+I love solving Sudoku. Sometimes, I like to solve extremely hard ones. 
+The problem is, more often than I'd like to admit, I find myself in a place where I don't know the next cell to solve.
+And the tips only give you the result, not the explaination why it was like that.
 
 This project solves that. It's a sudoku teacher.
 
